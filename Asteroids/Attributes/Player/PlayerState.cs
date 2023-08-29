@@ -1,0 +1,6 @@
+﻿    enum PlayerState
+    {
+        isAlive,
+
+        isDead
+    }

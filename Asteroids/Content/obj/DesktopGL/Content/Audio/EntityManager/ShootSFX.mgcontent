@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>D:/UserData/jeffj/source/repos/Asteroids/Asteroids/Content/Audio/EntityManager/ShootSFX.wav</SourceFile>
+  <SourceTime>2021-09-30T05:01:15.0460733-07:00</SourceTime>
+  <DestFile>D:/UserData/jeffj/source/repos/Asteroids/Asteroids/Content/bin/DesktopGL/Content/Audio/EntityManager/ShootSFX.xnb</DestFile>
+  <DestTime>2021-11-27T10:29:14.2020828-08:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2020-08-10T09:17:54-07:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2020-08-10T09:17:54-07:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

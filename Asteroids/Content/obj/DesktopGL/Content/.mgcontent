@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/Background.png</File>
+    <File>E:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/CreditsScreen.png</File>
+    <File>E:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/Crossing-the-Light-Years.wav</File>
+    <File>E:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/DeathScreen.png</File>
+    <File>E:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/Dizzybot.wav</File>
+    <File>E:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/LoadMenu.png</File>
+    <File>E:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/MainMenu.png</File>
+    <File>E:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/MainMenuButtons.png</File>
+    <File>E:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/PauseMenu.png</File>
+    <File>E:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/PauseMenuButtons.png</File>
+    <File>E:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/Planet.png</File>
+    <File>E:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/UI font.spritefont</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
