@@ -9,3 +9,6 @@ Requirements:
 * MonoGame.Framework.WindowsDX version 3.8.1.303
 * MonoGame.Content.Builder.Task version 3.8.1.303
 
+Demo:
+=====
+![Output sample](https://github.com/Jeff0502/planet-defender/blob/main/demo.gif)
