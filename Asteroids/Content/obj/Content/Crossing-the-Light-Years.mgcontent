@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/Crossing-the-Light-Years.wav</SourceFile>
+  <SourceTime>2021-10-22T15:51:31.0030923+02:00</SourceTime>
+  <DestFile>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/bin/Content/Crossing-the-Light-Years.xnb</DestFile>
+  <DestTime>2023-08-29T09:45:38.4214792+02:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2022-07-26T13:44:56+02:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
