@@ -119,9 +119,7 @@ namespace Asteroids.Entities
 
                 SELECT_MOD++;
 
-                Vector2 midpt = new(GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width / 2, GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height / 2);
-
-                var displacedPosition = new Vector2(midpt.X + 800 * (float)Math.Sin(genRot), midpt.Y + 800 * (float)Math.Cos(genRot));
+                var displacedPosition = new Vector2(AsteroidsGame.midpt.X + 800 * (float)Math.Sin(genRot), AsteroidsGame.midpt.Y + 800 * (float)Math.Cos(genRot));
 
                 genPos = displacedPosition;
 
@@ -132,7 +130,7 @@ namespace Asteroids.Entities
 
                     Position = genPos,
 
-                    direction = new Vector2(midpt.X - genPos.X, midpt.Y - genPos.Y),
+                    direction = new Vector2(AsteroidsGame.midpt.X - genPos.X, AsteroidsGame.midpt.Y - genPos.Y),
 
                 };
 

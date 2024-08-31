@@ -28,7 +28,10 @@ namespace Asteroids.Menus
 
         public bool CheckClick()
         {
-            Rectangle mouseRectangle = new(Mouse.GetState().X, Mouse.GetState().Y, 10, 10);
+            float widthRatio = (float)AsteroidsGame.WINDOW_WIDTH / AsteroidsGame.RENDER_WIDTH;
+            float heightRatio = (float)AsteroidsGame.WINDOW_HEIGHT / AsteroidsGame.RENDER_HEIGHT;
+
+            Rectangle mouseRectangle = new((int)(Mouse.GetState().X / widthRatio), (int)(Mouse.GetState().Y / heightRatio), 10, 10);
 
             return (CollisionBox2.Intersects(mouseRectangle) && Mouse.GetState().LeftButton == ButtonState.Pressed);
         }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/Earth..png</SourceFile>
-  <SourceTime>2021-09-19T17:47:14.4216273+02:00</SourceTime>
-  <DestFile>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/bin/Planet.xnb</DestFile>
-  <DestTime>2023-08-29T11:40:34.2017753+02:00</DestTime>
+  <SourceFile>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/Earth..png</SourceFile>
+  <SourceTime>2024-08-30T09:48:53.8965332+02:00</SourceTime>
+  <DestFile>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/bin/Planet.xnb</DestFile>
+  <DestTime>2024-08-31T13:35:26.4022014+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

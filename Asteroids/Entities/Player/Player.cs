@@ -15,6 +15,8 @@ namespace Asteroids.Entities
     {
         private readonly KeyboardInput input = new();
 
+        private float angularAccl = 0, angularVel = 0;
+
         private Vector2 direction;
 
         private PlayerHealthManager healthManager = new(2);
@@ -43,7 +45,6 @@ namespace Asteroids.Entities
             healthManager.LoadContent(Content);
         }
 
-        #region Updates
         public override void Update(GameTime gameTime)
         {
             healthManager.Update(gameTime);
@@ -57,14 +58,17 @@ namespace Asteroids.Entities
 
             direction = new Vector2((float)Math.Sin(Rotation), (float)Math.Cos(Rotation));
 
+            Rotation += angularVel;
+            angularVel += angularAccl;
+            angularVel *= 0.9f;
+            angularAccl = 0;
+
             kbhit();
 
             base.Update(gameTime);
             
             if(input.IsKeyPressed(Keys.Space))
-            {
                 Shoot();
-            }
 
             bulletManager.Update(gameTime);
 
@@ -72,17 +76,13 @@ namespace Asteroids.Entities
 
         }
 
-        #endregion
-
         public override void Draw(SpriteBatch spriteBatch)
         {
             healthManager.Draw(spriteBatch);
 
             bulletManager.Draw(spriteBatch);
 
-            Vector2 midpt = new(GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width / 2, GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height / 2);
-
-            var displacedPosition = new Vector2(midpt.X + 150 * (float)Math.Sin(Rotation), midpt.Y + 150 * (float)Math.Cos(Rotation));
+            var displacedPosition = new Vector2(AsteroidsGame.midpt.X + 150 * (float)Math.Sin(Rotation), AsteroidsGame.midpt.Y + 150 * (float)Math.Cos(Rotation));
 
             Position = displacedPosition;
 
@@ -99,10 +99,10 @@ namespace Asteroids.Entities
         private void kbhit()
         {
             if (input.IsKeyDown(Keys.A) || input.IsKeyDown(Keys.Left))
-                Rotation += MathHelper.ToRadians(3f);
+                angularAccl += MathHelper.ToRadians(0.5f);
 
             if (input.IsKeyDown(Keys.D) || input.IsKeyDown(Keys.Right))
-                Rotation -= MathHelper.ToRadians(3f);
+                angularAccl -= MathHelper.ToRadians(0.5f);
             
         }
 

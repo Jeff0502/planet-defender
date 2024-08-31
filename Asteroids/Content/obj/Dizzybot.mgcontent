@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/Dizzybot.wav</SourceFile>
-  <SourceTime>2021-10-24T14:38:06.6067621+02:00</SourceTime>
-  <DestFile>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/bin/Dizzybot.xnb</DestFile>
-  <DestTime>2023-08-29T11:40:34.187775+02:00</DestTime>
+  <SourceFile>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/Dizzybot.wav</SourceFile>
+  <SourceTime>2024-08-30T09:48:53.8965332+02:00</SourceTime>
+  <DestFile>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/bin/Dizzybot.xnb</DestFile>
+  <DestTime>2024-08-31T13:35:26.3842015+02:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

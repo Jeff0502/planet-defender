@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BvIflF/7aaqDoqJ4jg/H4r9oWg7VA09pCL8mi5OVw6cWqZU9V9lMMX5WD/q6RL8B2YwTOAyXX1BoKRiLhRpw3Q==",
+  "dgSpecHash": "eEneW7RfQaea02Vt0YX0KcD3c5kzhQaX8ckPE69g5RnRysokKWkbc5d6+f73Yrc16d2lAYlELaGrYtSxpAUd1A==",
   "success": true,
-  "projectFilePath": "D:\\UserData Archive\\jeffj\\source\\repos\\Asteroids\\Asteroids\\Asteroids.csproj",
+  "projectFilePath": "/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Asteroids.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\.52\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-    "C:\\Users\\.52\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    "/home/christiaanburden/.nuget/packages/monogame.content.builder.task/3.8.1.303/monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "/home/christiaanburden/.nuget/packages/monogame.framework.desktopgl/3.8.1.303/monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
   ],
   "logs": []
 }

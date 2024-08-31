@@ -16,10 +16,7 @@ namespace Asteroids.Entities
 
         public Planet(Dictionary<string, Animation> animations) : base(animations)
         {
-            Vector2 midpt = new(GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width / 2, GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height / 2);
-
-            Position = midpt;
-
+            Position = AsteroidsGame.midpt;
         }
 
         public void LoadContent(ContentManager Content)

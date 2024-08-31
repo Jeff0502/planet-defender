@@ -29,7 +29,7 @@ namespace Asteroids.Menus
 
             musicManager.LoadTracks(tracks, Content);
 
-            backgroundTexture = Content.Load<Texture2D>("background");
+            backgroundTexture = Content.Load<Texture2D>("Background");
 
             entityManager.LoadContent();
 
@@ -56,6 +56,11 @@ namespace Asteroids.Menus
         {
             musicManager.Update(gameTime);
             entityManager.Update(gameTime);
+        }
+
+        public void KillAll()
+        {
+            entityManager.KillAll();
         }
 
         public void Restart()

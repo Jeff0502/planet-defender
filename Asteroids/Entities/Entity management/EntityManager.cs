@@ -26,12 +26,13 @@ namespace Asteroids.Entities
 
         public ContentManager content;
 
-        ScoreManager scoreManager = new();
+        ScoreManager scoreManager;
 
         public Player Player { get; private set; }
 
         public void LoadContent()
         {
+            scoreManager = new();
             Dictionary<string, SoundEffect> playerSoundEffects = new()
             {
                 { "ShootSFX", content.Load<SoundEffect>("ShootSFX") }
@@ -111,8 +112,14 @@ namespace Asteroids.Entities
 
         public void Clear()
         {
+            scoreManager.WriteBest();
             entities.Clear();
             _asteroidManager.Clear();
+        }
+
+        public void KillAll()
+        {
+            Clear();
         }
 
 

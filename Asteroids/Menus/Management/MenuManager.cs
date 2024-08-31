@@ -144,6 +144,9 @@ namespace Asteroids.Menus
         private void GameMenu_OnDeath(object sender, EventArgs e)
         {
             delayedState = GameState.inDeathScreen;
+            GameMenu gameMenu = (GameMenu)menus["GameMenu"];
+
+            gameMenu.KillAll();
         }
 
         private void DeathMenu_OnExit(object sender, EventArgs e)

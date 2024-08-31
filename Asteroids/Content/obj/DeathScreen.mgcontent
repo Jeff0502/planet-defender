@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/DeathScreen.png</SourceFile>
-  <SourceTime>2021-10-11T18:26:34.328356+02:00</SourceTime>
-  <DestFile>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/bin/DeathScreen.xnb</DestFile>
-  <DestTime>2023-08-29T11:40:33.8187764+02:00</DestTime>
+  <SourceFile>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/DeathScreen.png</SourceFile>
+  <SourceTime>2024-08-30T09:48:53.8535336+02:00</SourceTime>
+  <DestFile>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/bin/DeathScreen.xnb</DestFile>
+  <DestTime>2024-08-31T13:35:26.2562019+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

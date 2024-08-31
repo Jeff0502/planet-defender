@@ -4,18 +4,18 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/Background.png</File>
-    <File>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/CreditsScreen.png</File>
-    <File>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/Crossing-the-Light-Years.wav</File>
-    <File>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/DeathScreen.png</File>
-    <File>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/Dizzybot.wav</File>
-    <File>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/Earth..png</File>
-    <File>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/LoadMenu.png</File>
-    <File>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/MainMenu.png</File>
-    <File>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/MainMenuButtons.png</File>
-    <File>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/PauseMenu.png</File>
-    <File>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/PauseMenuButtons.png</File>
-    <File>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/UI font.spritefont</File>
+    <File>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/Background.png</File>
+    <File>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/CreditsScreen.png</File>
+    <File>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/Crossing-the-Light-Years.wav</File>
+    <File>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/DeathScreen.png</File>
+    <File>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/Dizzybot.wav</File>
+    <File>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/Earth..png</File>
+    <File>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/LoadMenu.png</File>
+    <File>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/MainMenu.png</File>
+    <File>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/MainMenuButtons.png</File>
+    <File>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/PauseMenu.png</File>
+    <File>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/PauseMenuButtons.png</File>
+    <File>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/UI font.spritefont</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

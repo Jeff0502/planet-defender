@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/UI font.spritefont</SourceFile>
-  <SourceTime>2022-06-21T11:02:01.32877+02:00</SourceTime>
-  <DestFile>D:/UserData Archive/jeffj/source/repos/Asteroids/Asteroids/Content/bin/UI font.xnb</DestFile>
-  <DestTime>2023-08-29T11:40:34.9088056+02:00</DestTime>
+  <SourceFile>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/UI font.spritefont</SourceFile>
+  <SourceTime>2024-08-31T13:34:51.810304+02:00</SourceTime>
+  <DestFile>/home/christiaanburden/Documents/repos/planet-defender/Asteroids/Content/bin/UI font.xnb</DestFile>
+  <DestTime>2024-08-31T13:35:27.0631995+02:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

@@ -15,6 +15,7 @@ namespace Asteroids.Entities
             veloctiy = 0.0025f;
 
             _audioManager = new(soundEffects);
+            animationManager.rotation = this.Rotation;
         }
 
         public override void Update(GameTime gameTime)
