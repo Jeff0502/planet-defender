@@ -1,5 +1,0 @@
-/home/christiaanburden/Documents/repos/planet-defender/Asteroids/obj/Debug/net5.0/Asteroids.csproj.AssemblyReference.cache
-/home/christiaanburden/Documents/repos/planet-defender/Asteroids/obj/Debug/net5.0/Asteroids.GeneratedMSBuildEditorConfig.editorconfig
-/home/christiaanburden/Documents/repos/planet-defender/Asteroids/obj/Debug/net5.0/Asteroids.AssemblyInfoInputs.cache
-/home/christiaanburden/Documents/repos/planet-defender/Asteroids/obj/Debug/net5.0/Asteroids.AssemblyInfo.cs
-/home/christiaanburden/Documents/repos/planet-defender/Asteroids/obj/Debug/net5.0/Asteroids.csproj.CoreCompileInputs.cache
